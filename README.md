@@ -1,79 +1,70 @@
-# 🐧 Linux Blueprint: Zero to Hero
+# Linux Blueprint — Zero to Hero
 
-![Linux](https://img.shields.io/badge/Linux-Command%20Line-FCC624?logo=linux&logoColor=black)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04+-E95420?logo=ubuntu&logoColor=white)
-![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-181717?logo=github)
-![Beginners](https://img.shields.io/badge/Made%20for-Beginners-0a0e1a)
-![License](https://img.shields.io/badge/License-MIT-blue)
+Cloud & DevOps Engineer | I turn manual, 3 AM-breaking deployments into 1-min automated pipelines with AWS + Ansible + Terraform | Featured: 15-Module Ansible Lab with real terminal
 
-**Built by [Nkechi Anna Ahanonye](https://www.linkedin.com/in/nkechiahanonye) — Cloud & DevOps Engineer | I turn manual, 3 AM-breaking deployments into 1-min automated pipelines with AWS + Ansible + Terraform | Featured: 15-Module Ansible Lab with real terminal**
-
-For DevOps students who need relatable, hands-on examples — not textbook theory.
-
----
-
-> **From zero to shell scripting — one copy-paste lab at a time.**
-
-A static, beginner-to-hero Linux learning platform designed for GitHub Pages. Covers the terminal, file system, permissions, processes, networking, shell scripting, and security hardening.
+A static, beginner-to-hero Linux learning platform for DevOps students. Covers the terminal, file system, permissions, processes, networking, shell scripting, SSH, and security hardening. 11 hands-on labs + capstone with Nigerian-context analogies.
 
 ## What's Inside
+1. 11 hands-on labs with copy-paste commands and Expected Output
+2. Capstone: Server Health Dashboard script with cron scheduling
+3. Browser localStorage progress tracking
+4. Dark/light theme toggle, responsive design
+5. No build system — pure HTML/CSS/JS
 
-- 14 chapters from "What is Linux?" to Security Hardening
-- 10 hands-on labs with copy-paste commands and expected output
-- Capstone project: Build a Server Health Dashboard Script
-- Nigerian-context analogies throughout (NEPA, generator, cybercafe, market)
-- Browser localStorage progress tracking
-- Responsive design with dark/light theme toggle
-- No build system — pure HTML/CSS/JS
+## Labs
+0. Setup — Install Linux (WSL2 or VirtualBox)
+1. First Commands — pwd, ls, cd
+2. File Mastery — touch, cp, mv, rm, find
+3. Permissions & Ownership — chmod, chown
+4. Text Processing — grep, sed, awk, sort
+5. Process Management — ps, top, kill
+6. Package Management — apt install, remove
+7. Shell Scripting — variables, loops, functions
+8. Networking Basics — ip, ping, curl, ufw
+9. SSH & Remote Access — ssh-keygen, ssh-copy-id
+10. Capstone — Server Health Dashboard with cron
 
-## Live Site
+## Quick Start
+```bash
+# Open the live site:
+# https://nkydigitech.github.io/linux-blueprint/
 
-Coming soon: https://nkydigitech.github.io/linux-blueprint/
+# Or clone and run locally:
+git clone https://github.com/nkydigitech/linux-blueprint.git
+cd linux-blueprint
+# Open index.html in your browser
+```
 
-## Blueprint Series
-
-| # | Blueprint | Focus | Status |
-|---|-----------|-------|--------|
-| 1 | [ansible-guide](https://github.com/nkydigitech/ansible-guide) | Ansible Automation | ✅ Live |
-| 2 | [terraform-blueprint](https://github.com/nkydigitech/terraform-blueprint) | Infrastructure as Code | ✅ Live |
-| 3 | [aws-blueprint](https://github.com/nkydigitech/aws-blueprint) | Amazon Web Services | ✅ Live |
-| 4 | [azure-blueprint](https://github.com/nkydigitech/azure-blueprint) | Microsoft Azure | ✅ Live |
-| 5 | [kubernetes-blueprint](https://github.com/nkydigitech/kubernetes-blueprint) | Container Orchestration | ✅ Live |
-| 6 | linux-blueprint | Linux Command Line | 🚧 Coming Soon |
-| 7 | github-blueprint | Git & GitHub | 🚧 Coming Soon |
-| 8 | docker-blueprint | Containerization | 🚧 Coming Soon |
-
-## Part of the Blueprint Series
+## Part of the Blueprint Series (Full 17 — Preserved & Extended)
 
 | # | Blueprint | Category | Status |
-|---|-----------|----------|--------|
-| 1 | [ansible-guide](https://github.com/nkydigitech/ansible-guide) | Automation | ✅ Live |
-| 2 | [terraform-blueprint](https://github.com/nkydigitech/terraform-blueprint) | IaC | ✅ Live |
-| 3 | [aws-blueprint](https://github.com/nkydigitech/aws-blueprint) | Cloud | ✅ Live |
-| 4 | [azure-blueprint](https://github.com/nkydigitech/azure-blueprint) | Cloud | ✅ Live |
-| 5 | [kubernetes-blueprint](https://github.com/nkydigitech/kubernetes-blueprint) | Orchestration | ✅ Live |
-| 6 | **linux-blueprint** | Fundamentals | 🚧 Coming Soon |
-| 7 | [github-blueprint](https://github.com/nkydigitech/github-blueprint) | Version Control | 🚧 Coming Soon |
-| 8 | [docker-blueprint](https://github.com/nkydigitech/docker-blueprint) | Containers | ✅ Live |
-| 9 | [bash-scripting-blueprint](https://github.com/nkydigitech/bash-scripting-blueprint) | Scripting | 🚧 Coming Soon |
-| 10 | [sdlc-blueprint](https://github.com/nkydigitech/sdlc-blueprint) | Methodology | 🚧 Coming Soon |
-| 11 | [cicd-blueprint](https://github.com/nkydigitech/cicd-blueprint) | CI/CD | 🚧 Coming Soon |
-| 12 | [jenkins-blueprint](https://github.com/nkydigitech/jenkins-blueprint) | CI/CD | 🚧 Coming Soon |
-| 13 | [azure-devops-blueprint](https://github.com/nkydigitech/azure-devops-blueprint) | DevOps Platform | 🚧 Coming Soon |
-| 14 | [prometheus-blueprint](https://github.com/nkydigitech/prometheus-blueprint) | Monitoring | 🚧 Coming Soon |
-| 15 | [grafana-blueprint](https://github.com/nkydigitech/grafana-blueprint) | Visualization | 🚧 Coming Soon |
-| 16 | [openshift-blueprint](https://github.com/nkydigitech/openshift-blueprint) | Enterprise K8s | 🚧 Coming Soon |
-| 17 | [cybersecurity-blueprint](https://github.com/nkydigitech/cybersecurity-blueprint) | DevSecOps | 🚧 Coming Soon |
+|---|---|---|---|
+| 1 | ansible-guide | Automation | Live |
+| 2 | terraform-blueprint | IaC | Live |
+| 3 | aws-blueprint | Cloud | Live |
+| 4 | azure-blueprint | Cloud | Live |
+| 5 | kubernetes-blueprint | Orchestration | Live |
+| 6 | docker-blueprint | Containers | Live |
+| 7 | **linux-blueprint** | Fundamentals | Live (this repo) |
+| 8 | github-blueprint | Version Control | Coming Soon |
+| 9 | bash-scripting-blueprint | Scripting | Coming Soon |
+| 10 | sdlc-blueprint | Methodology | Coming Soon |
+| 11 | cicd-blueprint | CI/CD | Coming Soon |
+| 12 | jenkins-blueprint | CI/CD | Coming Soon |
+| 13 | azure-devops-blueprint | DevOps Platform | Coming Soon |
+| 14 | prometheus-blueprint | Monitoring | Coming Soon |
+| 15 | grafana-blueprint | Visualization | Coming Soon |
+| 16 | openshift-blueprint | Enterprise K8s | Coming Soon |
+| 17 | cybersecurity-blueprint | DevSecOps | Coming Soon |
 
 ## Connect
-
-- **LinkedIn:** [Nkechi Ahanonye](https://www.linkedin.com/in/nkechiahanonye)
-- **X (Twitter):** [@NAhanonye](https://www.x.com/NAhanonye)
-- **Facebook:** [NkyDigitech](https://web.facebook.com/nkydigitech)
-- **Instagram:** [@nahanonye](https://www.instagram.com/nahanonye/)
-- **TikTok:** [@nkechiahanonye](https://www.tiktok.com/@nkechiahanonye)
-- **Portfolio:** [nkydigitech.github.io/nky-portfolio](https://nkydigitech.github.io/nky-portfolio/)
+- **LinkedIn:** https://www.linkedin.com/in/nkechiahanonye
+- **X (Twitter):** https://www.x.com/NAhanonye
+- **Facebook:** https://web.facebook.com/nkydigitech
+- **Instagram:** https://www.instagram.com/nahanonye/
+- **TikTok:** https://www.tiktok.com/@nkechiahanonye
+- **Portfolio:** https://nkydigitech.github.io/nky-portfolio/
 
 ---
 
-*Built with ❤️ for the DevOps community. Especially for African engineers who deserve accessible, relatable learning resources.*
+Built with love for the DevOps community. Especially for African engineers who deserve accessible, relatable learning resources.
